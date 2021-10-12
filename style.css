@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+.logo .phone{
+    margin-right: 15px !important;
+}
+.logo i{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.logo .mail {
+    margin-right: 15px !important;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.menu ul>li{
+    margin-right: 15px;
+}
+.slider .carousel-caption {
+    position: absolute;
+    top: 150px;
+    text-align: left!important;
+}
+.slider__title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.card{
+    border: none;
+}
+.card-title{
+    color: #f45a40;
+    cursor: pointer;
+}
+.card-title:hover{
+    text-decoration: underline;
+}
+.cart__slider h1 {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    color: #67686d;
+}
+.cart__slider h1:before, h1:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #e3e3e3;
+    margin:auto 25px;
+}
+.image__center{
+    margin: 0 2px;
+}
+.cart__des{
+    font-size: 15px;
+}
+.slide .control{
+    width: 50px;
+    height: 50px;
+}
+.bi-chevron-left::before {
+    margin-top: 18px;
+}
+.bi-chevron-right::before {
+    margin-top: 18px;
+}
+.bi-facebook{
+    color: black !important;
+    background: white!important;
+}
+.intro__icon i{
+    font-size: 25px;
+    padding-right: 18px;
+}
+.sign__in input{
+    border: none;
+    outline: none
+}
+.sign__in button {
+    margin-left: 20px;
+    border: none;
+    background: #f45a40;
+    color: aliceblue;
+}
+.support__link ul>li>a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #7e7f84;
+    margin-left: 5px;
+}
+.footer input,textarea{
+    outline: none;
+}
+.footer button{
+    border: none;
+}

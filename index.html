@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container-fluid">
+            <section class="logo my-3">
+                <div class="container">
+                    <div class="d-flex">
+                        <a class="navbar-brand justify-start text-black-50 fs-4" href="#">BIRUANG</a>
+                        <div class="ms-auto contact d-flex text-muted">
+                            <i class="bi bi-telephone-outbound mt-2 fs-5"></i>
+                            <a class="phone mt-2 text-decoration-none text-muted" href="tel:+371 282 20 760">+371 282 20 760</a>
+                            <i class="bi bi-envelope mt-2 fs-5"></i>
+                            <a class="mail mt-2 text-decoration-none text-muted" href="mailto:eony321v@gmail.com">eony321v@gmail.com</a>
+                            <div class="cart border py-1 px-3">
+                                <i class="bi bi-cart-check mt-2 fs-5"></i>
+                                <p class="money d-inline">
+                                    $ 99.99</p>
+                                <p class="checkout d-inline">CHECKOUT
+                                    <i class="bi bi-chevron-down border"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <nav class="menu navbar navbar-expand-lg navbar-light text-uppercase ">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                                    <li class="nav-item dropdown pr-3">
+                                        <a class="nav-link" href="#" id="navbarDropdown">
+                                            home
+                                        </a>
+                                        <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item text-black-50" href="#">Action</a></li>
+                                            <li><a class="dropdown-item text-black-50" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item text-black-50" href="#">Action</a></li>
+                                            <li><a class="dropdown-item text-black-50" href="#">Another action</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-black-50" aria-current="page" href="#">men</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-black-50" aria-current="page" href="#">women</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-black-50" aria-current="page" href="#">kids</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-black-50" aria-current="page" href="#">sale</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-black-50" aria-current="page" href="#">about us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-black-50" aria-current="page" href="#">support</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-lowercase text-black-50" aria-current="page" href="#">
+                                            <i class="bi bi-search text-black-50"></i>
+                                            Search...</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+            <section class="slider mb-5">
+                <div id="carouselExampleCaptions" class="carousel slider" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="http://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg" class="d-block w-100" alt="..." height="660">
+                            <div class="container carousel-caption">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h1 class="slider__title">RIGHT IS PINK. LEFT IS BLUE</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequatur dignissimos</p>
+                                        <a class="btn btn-danger rounded-0 px-4" href="javascript:;">SHOP BASIL</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://wowslider.com/sliders/demo-18/data1/images/shanghai.jpg" class="d-block w-100" alt="..." height="660">
+                            <div class="container carousel-caption">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h1 class="slider__title">RIGHT IS PINK. LEFT IS BLUE</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequatur dignissimos</p>
+                                        <a class="btn btn-danger rounded-0 px-4" href="javascript:;">SHOP BASIL</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://wowslider.com/sliders/demo-18/data1/images/new_york.jpg" class="d-block w-100" alt="..." height="660">
+                            <div class="container carousel-caption">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h1 class="slider__title">RIGHT IS PINK. LEFT IS BLUE</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequatur dignissimos</p>
+                                        <a class="btn btn-danger rounded-0 px-4" href="javascript:;">SHOP BASIL</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+            <section class="cart__content py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://dummyimage.com/370x225/27282e/000000" class="card-img-top" alt="...">
+                                <div class="card-body px-0">
+                                    <h5 class="card-title text-uppercase fw-bold">FOOTBALL SHOES</h5>
+                                    <p class="card-text text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://dummyimage.com/370x225/27282e/000000" class="card-img-top" alt="...">
+                                <div class="card-body px-0">
+                                    <h5 class="card-title text-uppercase fw-bold">MODERN CLOTHES</h5>
+                                    <p class="card-text text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="https://dummyimage.com/370x225/27282e/000000" class="card-img-top" alt="...">
+                                <div class="card-body px-0">
+                                    <h5 class="card-title text-uppercase fw-bold">BAGS & ACCESSORIES</h5>
+                                    <p class="card-text text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cart__slider mb-5">
+                <div class="container">
+                    <h1 class="text-center text-uppercase mb-5">POPULAR PRODUCTS</h1>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                                <!-- Carousel indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                </ol>
+                                <!-- Wrapper for carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="item carousel-item active">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper border-bottom">
+                                                    <div class="img-box position-relative">
+                                                        <img src="https://dummyimage.com/270x180/ccced9/000000" class="img-fluid" alt="" width="100%">
+                                                        <div class="cart__img_child mt-1">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img class="image__center" src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                        </div>
+                                                        <div class="cart__star text-warning position-absolute top-0 start-1 p-2">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="thumb-content px-3 pt-3">
+                                                        <h4 class="text-uppercase fw-bold">Nike Tailwind Loose</h4>
+                                                        <h3 class="text-uppercase fst-italic text-black-50 fs-5">Running Tank Top</h3>
+                                                        <p class="item-price cart__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit. quam repudiandae.</p>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="cart__price clearfix px-3">
+                                                        <div class="float-start">
+                                                            <p class="price text-danger fw-bold">$ 99.99</p>
+                                                        </div>
+                                                        <div class="float-end">
+                                                            <i class="bi bi-heart mx-2"></i>
+                                                            <i class="bi bi-plus-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper border-bottom">
+                                                    <div class="img-box position-relative">
+                                                        <img src="https://dummyimage.com/270x180/ccced9/000000" class="img-fluid" alt="" width="100%">
+                                                        <div class="cart__img_child mt-1">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img class="image__center" src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                        </div>
+                                                        <div class="cart__star text-warning position-absolute top-0 start-1 p-2">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="thumb-content px-3 pt-3">
+                                                        <h4 class="text-uppercase fw-bold">Nike Tailwind Loose</h4>
+                                                        <h3 class="text-uppercase fst-italic text-black-50 fs-5">Running Tank Top</h3>
+                                                        <p class="item-price cart__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit. quam repudiandae.</p>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="cart__price clearfix px-3">
+                                                        <div class="float-start">
+                                                            <p class="price text-danger fw-bold">$ 99.99</p>
+                                                        </div>
+                                                        <div class="float-end">
+                                                            <i class="bi bi-heart mx-2"></i>
+                                                            <i class="bi bi-plus-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper border-bottom">
+                                                    <div class="img-box position-relative">
+                                                        <img src="https://dummyimage.com/270x180/ccced9/000000" class="img-fluid" alt="" width="100%">
+                                                        <div class="cart__img_child mt-1">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img class="image__center" src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                        </div>
+                                                        <div class="cart__star text-warning position-absolute top-0 start-1 p-2">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="thumb-content px-3 pt-3">
+                                                        <h4 class="text-uppercase fw-bold">Nike Tailwind Loose</h4>
+                                                        <h3 class="text-uppercase fst-italic text-black-50 fs-5">Running Tank Top</h3>
+                                                        <p class="item-price cart__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit. quam repudiandae.</p>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="cart__price clearfix px-3">
+                                                        <div class="float-start">
+                                                            <p class="price text-danger fw-bold">$ 99.99</p>
+                                                        </div>
+                                                        <div class="float-end">
+                                                            <i class="bi bi-heart mx-2"></i>
+                                                            <i class="bi bi-plus-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper border-bottom">
+                                                    <div class="img-box position-relative">
+                                                        <img src="https://dummyimage.com/270x180/ccced9/000000" class="img-fluid" alt="" width="100%">
+                                                        <div class="cart__img_child mt-1">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img class="image__center" src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                        </div>
+                                                        <div class="cart__star text-warning position-absolute top-0 start-1 p-2">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="thumb-content px-3 pt-3">
+                                                        <h4 class="text-uppercase fw-bold">Nike Tailwind Loose</h4>
+                                                        <h3 class="text-uppercase fst-italic text-black-50 fs-5">Running Tank Top</h3>
+                                                        <p class="item-price cart__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit. quam repudiandae.</p>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="cart__price clearfix px-3">
+                                                        <div class="float-start">
+                                                            <p class="price text-danger fw-bold">$ 99.99</p>
+                                                        </div>
+                                                        <div class="float-end">
+                                                            <i class="bi bi-heart mx-2"></i>
+                                                            <i class="bi bi-plus-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper border-bottom">
+                                                    <div class="img-box position-relative">
+                                                        <img src="https://dummyimage.com/270x180/ccced9/000000" class="img-fluid" alt="" width="100%">
+                                                        <div class="cart__img_child mt-1">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img class="image__center" src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                        </div>
+                                                        <div class="cart__star text-warning position-absolute top-0 start-1 p-2">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="thumb-content px-3 pt-3">
+                                                        <h4 class="text-uppercase fw-bold">Nike Tailwind Loose</h4>
+                                                        <h3 class="text-uppercase fst-italic text-black-50 fs-5">Running Tank Top</h3>
+                                                        <p class="item-price cart__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit. quam repudiandae.</p>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="cart__price clearfix px-3">
+                                                        <div class="float-start">
+                                                            <p class="price text-danger fw-bold">$ 99.99</p>
+                                                        </div>
+                                                        <div class="float-end">
+                                                            <i class="bi bi-heart mx-2"></i>
+                                                            <i class="bi bi-plus-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper border-bottom">
+                                                    <div class="img-box position-relative">
+                                                        <img src="https://dummyimage.com/270x180/ccced9/000000" class="img-fluid" alt="" width="100%">
+                                                        <div class="cart__img_child mt-1">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img class="image__center" src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                        </div>
+                                                        <div class="cart__star text-warning position-absolute top-0 start-1 p-2">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="thumb-content px-3 pt-3">
+                                                        <h4 class="text-uppercase fw-bold">Nike Tailwind Loose</h4>
+                                                        <h3 class="text-uppercase fst-italic text-black-50 fs-5">Running Tank Top</h3>
+                                                        <p class="item-price cart__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit. quam repudiandae.</p>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="cart__price clearfix px-3">
+                                                        <div class="float-start">
+                                                            <p class="price text-danger fw-bold">$ 99.99</p>
+                                                        </div>
+                                                        <div class="float-end">
+                                                            <i class="bi bi-heart mx-2"></i>
+                                                            <i class="bi bi-plus-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper border-bottom">
+                                                    <div class="img-box position-relative">
+                                                        <img src="https://dummyimage.com/270x180/ccced9/000000" class="img-fluid" alt="" width="100%">
+                                                        <div class="cart__img_child mt-1">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img class="image__center" src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                        </div>
+                                                        <div class="cart__star text-warning position-absolute top-0 start-1 p-2">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="thumb-content px-3 pt-3">
+                                                        <h4 class="text-uppercase fw-bold">Nike Tailwind Loose</h4>
+                                                        <h3 class="text-uppercase fst-italic text-black-50 fs-5">Running Tank Top</h3>
+                                                        <p class="item-price cart__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit. quam repudiandae.</p>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="cart__price clearfix px-3">
+                                                        <div class="float-start">
+                                                            <p class="price text-danger fw-bold">$ 99.99</p>
+                                                        </div>
+                                                        <div class="float-end">
+                                                            <i class="bi bi-heart mx-2"></i>
+                                                            <i class="bi bi-plus-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper border-bottom">
+                                                    <div class="img-box position-relative">
+                                                        <img src="https://dummyimage.com/270x180/ccced9/000000" class="img-fluid" alt="" width="100%">
+                                                        <div class="cart__img_child mt-1">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img class="image__center" src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                        </div>
+                                                        <div class="cart__star text-warning position-absolute top-0 start-1 p-2">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="thumb-content px-3 pt-3">
+                                                        <h4 class="text-uppercase fw-bold">Nike Tailwind Loose</h4>
+                                                        <h3 class="text-uppercase fst-italic text-black-50 fs-5">Running Tank Top</h3>
+                                                        <p class="item-price cart__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit. quam repudiandae.</p>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="cart__price clearfix px-3">
+                                                        <div class="float-start">
+                                                            <p class="price text-danger fw-bold">$ 99.99</p>
+                                                        </div>
+                                                        <div class="float-end">
+                                                            <i class="bi bi-heart mx-2"></i>
+                                                            <i class="bi bi-plus-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper border-bottom">
+                                                    <div class="img-box position-relative">
+                                                        <img src="https://dummyimage.com/270x180/ccced9/000000" class="img-fluid" alt="" width="100%">
+                                                        <div class="cart__img_child mt-1">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img class="image__center" src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                        </div>
+                                                        <div class="cart__star text-warning position-absolute top-0 start-1 p-2">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="thumb-content px-3 pt-3">
+                                                        <h4 class="text-uppercase fw-bold">Nike Tailwind Loose</h4>
+                                                        <h3 class="text-uppercase fst-italic text-black-50 fs-5">Running Tank Top</h3>
+                                                        <p class="item-price cart__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit. quam repudiandae.</p>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="cart__price clearfix px-3">
+                                                        <div class="float-start">
+                                                            <p class="price text-danger fw-bold">$ 99.99</p>
+                                                        </div>
+                                                        <div class="float-end">
+                                                            <i class="bi bi-heart mx-2"></i>
+                                                            <i class="bi bi-plus-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper border-bottom">
+                                                    <div class="img-box position-relative">
+                                                        <img src="https://dummyimage.com/270x180/ccced9/000000" class="img-fluid" alt="" width="100%">
+                                                        <div class="cart__img_child mt-1">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img class="image__center" src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                        </div>
+                                                        <div class="cart__star text-warning position-absolute top-0 start-1 p-2">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="thumb-content px-3 pt-3">
+                                                        <h4 class="text-uppercase fw-bold">Nike Tailwind Loose</h4>
+                                                        <h3 class="text-uppercase fst-italic text-black-50 fs-5">Running Tank Top</h3>
+                                                        <p class="item-price cart__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit. quam repudiandae.</p>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="cart__price clearfix px-3">
+                                                        <div class="float-start">
+                                                            <p class="price text-danger fw-bold">$ 99.99</p>
+                                                        </div>
+                                                        <div class="float-end">
+                                                            <i class="bi bi-heart mx-2"></i>
+                                                            <i class="bi bi-plus-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper border-bottom">
+                                                    <div class="img-box position-relative">
+                                                        <img src="https://dummyimage.com/270x180/ccced9/000000" class="img-fluid" alt="" width="100%">
+                                                        <div class="cart__img_child mt-1">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img class="image__center" src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                        </div>
+                                                        <div class="cart__star text-warning position-absolute top-0 start-1 p-2">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="thumb-content px-3 pt-3">
+                                                        <h4 class="text-uppercase fw-bold">Nike Tailwind Loose</h4>
+                                                        <h3 class="text-uppercase fst-italic text-black-50 fs-5">Running Tank Top</h3>
+                                                        <p class="item-price cart__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit. quam repudiandae.</p>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="cart__price clearfix px-3">
+                                                        <div class="float-start">
+                                                            <p class="price text-danger fw-bold">$ 99.99</p>
+                                                        </div>
+                                                        <div class="float-end">
+                                                            <i class="bi bi-heart mx-2"></i>
+                                                            <i class="bi bi-plus-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="thumb-wrapper border-bottom">
+                                                    <div class="img-box position-relative">
+                                                        <img src="https://dummyimage.com/270x180/ccced9/000000" class="img-fluid" alt="" width="100%">
+                                                        <div class="cart__img_child mt-1">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img class="image__center" src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                            <img src="https://dummyimage.com/70x90/ccced9/000000" alt="" width="32%">
+                                                        </div>
+                                                        <div class="cart__star text-warning position-absolute top-0 start-1 p-2">
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                            <i class="bi bi-star-fill"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="thumb-content px-3 pt-3">
+                                                        <h4 class="text-uppercase fw-bold">Nike Tailwind Loose</h4>
+                                                        <h3 class="text-uppercase fst-italic text-black-50 fs-5">Running Tank Top</h3>
+                                                        <p class="item-price cart__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit consectetur adipisicing elit. quam repudiandae.</p>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="cart__price clearfix px-3">
+                                                        <div class="float-start">
+                                                            <p class="price text-danger fw-bold">$ 99.99</p>
+                                                        </div>
+                                                        <div class="float-end">
+                                                            <i class="bi bi-heart mx-2"></i>
+                                                            <i class="bi bi-plus-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                                        <i class="text-dark control bi bi-chevron-left rounded-circle bg-light bg-gradient position-absolute top-50 start-0 translate-middle"></i>
+                                </a>
+                                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                                    <i class="text-dark control bi bi-chevron-right rounded-circle bg-light bg-gradient position-absolute top-50 start-100 translate-middle"></i></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="introduce text-black-50 my-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h1 class="intro__title fw-bold mb-5"><span class="text-danger">Biruang</span> Free PSD</h1>
+                            <p class="w-50 text-black-50">NEQUE PORRO   ERIKE SUPERUS DA DOLOREM IPSUM G ERIKE SUPERUS DA DOLOREM IPSUM G</p>
+                            <div class="intro__icon mt-4">
+                                <i class="fab fa-facebook-f fa-lg text-danger"></i>
+                                <i class="fab fa-twitter fa-lg"></i>
+                                <i class="fab fa-google fa-lg"></i>
+                                <i class="fab fa-vimeo-v fa-lg"></i>
+                                <i class="fas fa-wifi fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="intro__des mt-5">
+                                <p class="des__1 pb-2 text-black-50 fst-italic">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem dolorem esse molestias placeat quaerat recusandae repellendus reprehenderit, unde voluptatibus?
+                                </p>
+                                <p class="des__1 pb-2 text-black-50 fst-italic">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem dolorem esse molestias placeat quaerat recusandae repellendus reprehenderit, unde voluptatibus?
+                                </p>
+                                <p class="des__1 text-black-50 fst-italic">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem dolorem esse molestias placeat quaerat recusandae repellendus reprehenderit, unde voluptatibus?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="intro__map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9183.895828300381!2d105.76478230000001!3d21.033193100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b950b17237%3A0x1244a6f3931997a4!2zQjUgLSBN4bu5IMSQw6xuaCAxLCBQaOG7kSBOZ3V54buFbiBDxqEgVGjhuqFjaCwgTeG7uSDEkMOsbmgsIFThu6sgTGnDqm0sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e1!3m2!1svi!2s!4v1634026386250!5m2!1svi!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sign__in bg-danger py-2">
+                <div class="container">
+                    <div class="row pt-4">
+                        <div class="col-md-8 ">
+                            <p class="text-uppercase fw-bold text-white fs-4"> <span class="fw-bolder">Sign up</span> for exclusive sales and product news</p>
+                        </div>
+                        <div class="col-md-4 ">
+                            <form action="">
+                                <input class="text-uppercase py-2 px-4" type="text" placeholder="eony321v@gmail.com">
+                                <button type="button" class="fw-bold py-2 px-4">SIGN IN</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="footer bg-dark pb-5">
+                <div class="container pt-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="footer__title text-uppercase text-light">
+                                <h1 class="fw-bolder fs-2 pb-4">Our Stores</h1>
+                            </div>
+                            <div class="address text-white-50 text-uppercase">
+                                <p class="pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti error, exercitationem illum iste qui sit?</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ullam!</p>
+                            </div>
+                            <div class="intro__icon mt-4 text-light">
+                                <i class="fab fa-facebook-f fa-lg text-danger"></i>
+                                <i class="fab fa-twitter fa-lg"></i>
+                                <i class="fab fa-google fa-lg"></i>
+                                <i class="fab fa-vimeo-v fa-lg"></i>
+                                <i class="fas fa-wifi fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="footer__title text-uppercase text-light">
+                                <h1 class="fw-bolder fs-2 pb-4">Blog posts</h1>
+                            </div>
+                            <div class="footer__blog_post text-light">
+                                <div class="blog__news mt-3">
+                                    <p class="news__title mb-0 fw-bolder">
+                                        Justin Bieber confirmed that he is gay
+                                    </p>
+                                    <p class="news_des text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="blog__news mt-3">
+                                    <p class="news__title mb-0 fw-bolder">
+                                        Justin Bieber confirmed that he is gay
+                                    </p>
+                                    <p class="news_des text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="blog__news mt-3">
+                                    <p class="news__title mb-0 fw-bolder">
+                                        Justin Bieber confirmed that he is gay
+                                    </p>
+                                    <p class="news_des text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="footer__title text-uppercase text-light">
+                                <h1 class="fw-bolder fs-2 pb-4">support</h1>
+                            </div>
+                            <div class="support__link d-flex justify-content-between">
+                                <ul class="px-0">
+                                    <li><a href="javascript:;">Terms & Conditions</a></li>
+                                    <li><a href="javascript:;">FAQ</a></li>
+                                    <li><a href="javascript:;">Payment</a></li>
+                                    <li><a href="javascript:;">Refunds</a></li>
+                                    <li><a href="javascript:;">Track Order</a></li>
+                                    <li><a href="javascript:;">Services</a></li>
+                                    <li><a href="javascript:;">Privacy & Security</a></li>
+                                    <li><a href="javascript:;">Careers</a></li>
+                                    <li><a href="javascript:;">Press</a></li>
+                                    <li><a href="javascript:;">Corporate Information</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="javascript:;">Sizing</a></li>
+                                    <li><a href="javascript:;">Ordering</a></li>
+                                    <li><a href="javascript:;">Ordering</a></li>
+                                    <li><a href="javascript:;">Return Policy</a></li>
+                                    <li><a href="javascript:;">Affiliates</a></li>
+                                    <li><a href="javascript:;">Find A Store </a></li>
+                                    <li><a href="javascript:;">Site Map</a></li>
+                                    <li><a href="javascript:;">Sign Up & Save</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-uppercase">
+                            <div class="footer__title  text-light">
+                                <h1 class="fw-bolder fs-2 pb-4">contact us</h1>
+                            </div>
+                            <div class="form">
+                                <form action="">
+                                    <input class="text-uppercase fw-bold w-100 px-3 py-1 mb-4" type="text" placeholder="your mail...">
+                                    <textarea class="text-uppercase fw-bold w-100 px-3 py-2 mb-4" name="" id="" cols="30" rows="3" placeholder="your text..."></textarea>
+                                    <button class="text-uppercase bg-danger text-light px-4 py-2 fw-bold" type="button">send messages</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
